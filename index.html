@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand"><i class="fa-brands fa-instagram me-1"></i>Instagram</a>
+      <div class="boton">
+      <button type="button" class="btn btn-success ms-5" data-bs-toggle="modal" data-bs-target="#myModal">Create a new post</button>
+      </div>
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title ms-1">Create a new post</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Caption:</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="Add the caption of your post here">
+                  <div class="icon caption m-1">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-solid fa-location-dot m-1"></i>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Publish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown d-flex justify-content-end">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Profile</a>
+          <a class="dropdown-item" href="#">Accesibility</a>
+          <a class="dropdown-item" href="#">Privacy and Data</a>
+          <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-danger href="#">Log Out</a>
+        </div>
+      </div>
+    </nav>
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+      </li>
+    </ul>
+    
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 mb-2" style="width: 18rem">
+                  <img class="card-img-top m-t-1" src="https://www.cibermascotas.es/blog/wp-content/uploads/2021/10/playas-para-perros-espana-696x470.jpg" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem;">
+                  <img class="card-img-top" src="https://assets.eldesconcierto.cl/2019/01/playaperrosmaslindamundo.jpg" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem;">
+                  <img class="card-img-top" src="https://3.bp.blogspot.com/-WgRIMim5l_g/VM5A1uU-LXI/AAAAAAAABOk/O_C5RuVrCs8/s1600/Perro%2Ben%2Bla%2Bplaya.JPG" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem">
+                  <img class="card-img-top" src="https://wallpaperaccess.com/full/240679.jpg" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem">
+                  <img class="card-img-top" src="https://c.wallhere.com/photos/01/f6/2560x1600_px_animals_Dumbbells_Guinea_Pigs_Gyms_humor_Working_Out-749400.jpg!d" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem">
+                  <img class="card-img-top" src="https://img.freepik.com/fotos-premium/gato-trabajando-computadora-portatil-generativa-ai_391052-10906.jpg?w=740" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem">
+                  <img class="card-img-top" src="https://i.pinimg.com/736x/24/20/3c/24203cb727f9640571a4bc2a68b0f324.jpg" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem">
+                  <img class="card-img-top" src="https://www.lt10.com.ar/multimedia/in1606056283169.jpeg" alt="Card image cap">
+            </div>
+            <div class="col-sm-4 mb-2" style="width: 18rem">
+                  <img class="card-img-top" src="https://www.lt10.com.ar/multimedia/in1606056306567.jpeg" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="card m-r-1" style="width: 20rem">
+          <div class="row-card-header d-flex justify-content-between align-items-center">
+            <h6>My Crazy dog!</h6>
+            <p>08/26</p>
+          </div>
+            <img class="card-img-top" src="https://www.cibermascotas.es/blog/wp-content/uploads/2021/10/playas-para-perros-espana-696x470.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text"><strong>204 Likes</strong></p>
+              <p class="card-text">This is a happy puppy</p>
+            </div>
+        </div>
+        <div class="card bg-white" style="width: 20rem;">
+          <div class="card-header d-flex justify-content-between align-items-center bg-white">
+            <h6>Let's go swimming</h6>
+            <p>09/24</p>
+          </div>
+            <img class="card-img-top" src="https://assets.eldesconcierto.cl/2019/01/playaperrosmaslindamundo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text"><strong>263 Likes</strong></p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="card bg-white" style="width: 20rem;">
+          <div class="card-header d-flex justify-content-between align-items-center bg-white">
+            <h6>Relax</h6>
+            <p>10/24</p>
+          </div>
+            <img class="card-img-top" src="https://revistajaraysedal.es/wp-content/uploads/2021/07/playa-perros-verano_1-1024x576.jpg" alt="Card image cap">
+          <div class="card-body">
+              <p class="card-text"><strong>200 Likes</strong></p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+        
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7ea6722046.js"></script>
+</body>
+</html>
